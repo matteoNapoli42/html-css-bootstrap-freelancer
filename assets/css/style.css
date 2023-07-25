@@ -1,0 +1,19 @@
+
+/*UTILITIES SECTION*/
+
+:root{
+    --bg-mtmb : #2c3e50;
+    --bg-hero-about : #1abc9c;
+    --bg-footer: #3a546d;
+}
+
+.txt-black{
+    color: #333333;
+}
+
+.txt-white{
+    color: #fefefe;
+}
+
+
+/*DEBUG SECTION*/
