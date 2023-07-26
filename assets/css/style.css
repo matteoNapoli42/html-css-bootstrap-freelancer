@@ -50,8 +50,7 @@ header{
     background-color: var(--bg-mtmb);
 }
 
-nav{
-    height: 90px;
+#navbar_menu{
 }
 
 /* END HEADER ZONE*/
@@ -66,14 +65,19 @@ nav{
 }
 /* END HERO ZONE*/
 
+
 /*PORTFOLIO ZONE*/
 #portfolio_sec{
+    background-color: #fefefe;
 }
 
 .portf-img{
     width: 100%;
 }
 /* END PORTFOLIO ZONE*/
+
+
+
 
 /* ABOUT ZONE*/
 
@@ -83,9 +87,12 @@ nav{
 }
 /* END ABOUT ZONE*/
 
+
+
 /* CONTACT ZONE*/
 
 #contact_sec{
+    background-color: #fefefe;
 }
 
 /* END CONTACT ZONE*/
@@ -100,12 +107,10 @@ nav{
 
 #top_footer{
     background-color: var(--bg-footer);
-    padding: 8% 0;
 }
 
 #bottom_footer{
     background-color: var(--bg-mtmb);
-    padding: 8% 0;
 }
 
 

@@ -10,14 +10,28 @@
     <title>BOOTSTRAP FREELANCER</title>
 </head>
 <body class="debug">
+    
     <header>
-        <nav class="d-flex container align-items-center justify-content-between txt_white">
-           <h3><a href="#">START BOOTSTRAP</a></h3>
-           <ul class="d-flex justify-content-around gap-2">
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
-           </ul>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_menu" aria-controls="navbar_menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar_menu">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>   
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -165,6 +179,7 @@
         
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>
