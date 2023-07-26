@@ -12,25 +12,25 @@
 <body class="debug">
     
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark">
+        <nav class="navbar navbar-expand-md navbar-dark py-3">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand">START BOOTSTRAP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_menu" aria-controls="navbar_menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbar_menu">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
-                        </li>
-                    </ul>   
-                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar_menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>   
             </div>
         </nav>
     </header>
@@ -109,7 +109,8 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis in vero explicabo, veritatis nesciunt tempora et rem quae alias neque a, totam sit voluptatum officiis. Laborum assumenda placeat architecto eius!
                     </div>
                     <div class="col-12 text-center py-3">
-                        <button>DOWNLOAD</button>
+                        <button type="button" class="btn btn-outline-light">
+                            <i class="fa-solid fa-download"></i>DOWNLOAD</button>
                     </div>
                 </div>
             </div>
@@ -127,13 +128,28 @@
                         <div class="black_line"></div>
                     </div>
                 </div>
-                <h3>Nome</h3>
-                <hr>
-                <h3>Email Address</h3>
-                <hr>
-                <h3>Phone Number</h3>
-                <hr>
-                <h3>Message</h3>
+                <div class="row">
+                    <div class="col-8 offset-2 py-2 px-0 border-bottom border-secondary">
+                        <input type="text" class="form-control border-0" id="floatingInput" placeholder="Nome">
+                    </div>
+                    <div class="col-8 offset-2 py-2 px-0 border-bottom border-secondary">
+                        <input type="email" class="form-control border-0" id="floatingInput" placeholder="Email Adress">
+                    </div>
+                    <div class="col-8 offset-2 py-2 px-0 border-bottom border-secondary">
+                        <input type="" class="form-control border-0" id="floatingInput" placeholder="Phone Number">
+                    </div>
+                    <div class="col-8 offset-2 py-3 px-0 border-bottom border-secondary">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Message</label>
+                          </div>
+                    </div>
+                    <div class="col-8 offset-2 py-2 px-0">
+                        <button type="button" class="btn btn-success border-0" style="background-color: #1abc9c;">
+                        Send
+                        </button>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -142,27 +158,27 @@
     <footer>
         <section id="top_footer">
             <div class="container">
-                <div class="row d-flex align-items-center txt_white">
-                    <div class="col-sm-12 col-md-4 align-items-center text-center py-3">
-                        <h2>LOCATION</h2>
-                        <p>2215 John Daniel Drive Clark, MO 54243</p>
+                <div class="row d-flex align-items-center txt_white ">
+                    <div class="col-sm-12 col-md-4 text-center py-3">
+                        <h4>LOCATION</h4>
+                        <span>2215 John Daniel Drive Clark, MO 54243</span>
                     </div>
-                    <div class="col-sm-12 col-md-4 text-center py-3 ">
-                        <h2>AROUND THE WEB</h2>
+                    <div class="col-sm-12 col-md-4 text-center py-3">
+                        <h4>AROUND THE WEB</h4>
                         <div class="text-center">
-                            <a><i class="fa-brands fa-facebook-f circle" style="color: #ffffff;"></i></a>
-                            <a><i class="fa-brands fa-google-plus-g circle" style="color: #ffffff;"></i></a>
-                            <a><i class="fa-brands fa-twitter circle" style="color: #ffffff;"></i></a>
-                            <a><i class="fa-brands fa-linkedin-in circle" style="color: #ffffff;"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f circle" style="color: #ffffff;"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g circle" style="color: #ffffff;"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter circle" style="color: #ffffff;"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in circle" style="color: #ffffff;"></i></a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4 text-center py-3">
-                        <h2>ABOUT FREELANCER </h2>
-                        <p>
+                        <h4>ABOUT FREELANCER </h4>
+                        <span>
                             Freelance is a free to use,open source 
                             Bootstrap theme created by 
-                            <a href="#"> Start Bootstrap</a>
-                        </p>
+                            <a href="#" style="color: #1abc9c;"> Start Bootstrap</a>
+                        </span>
                     </div>
                 </div> 
             </div>
@@ -170,7 +186,7 @@
         </section>
         <section id="bottom_footer">
             <div class="container">
-                <div class="row d.flex align-items-center txt_white text-center">
+                <div class="row d.flex align-items-center txt_white text-center py-4">
                     <span>Copyright Your Website 2019</span>
                 </div>
             </div>
