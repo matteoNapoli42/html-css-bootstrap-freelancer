@@ -8,6 +8,15 @@ a{
     text-decoration: none;
     color: #fefefe;
 }
+.line{
+    width: 40%;
+    border: 2px solid white;
+}
+
+.black_line{
+    width: 40%;
+    border: 2px solid black;
+}
 
 /* UTILITIES ZONE */
 
@@ -23,6 +32,12 @@ a{
 
 .txt_white{
     color: #fefefe;
+}
+
+.circle{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
 }
 
 /* END UTILITIES ZONE*/
@@ -48,13 +63,11 @@ nav{
 /*HERO ZONE*/
 #hero_sec{
     background-color: var(--bg-hero-about);
-    height: 490px;
 }
 /* END HERO ZONE*/
 
 /*PORTFOLIO ZONE*/
 #portfolio_sec{
-    background-color: lightcoral;
 }
 
 .portf-img{
@@ -64,7 +77,39 @@ nav{
 
 /* ABOUT ZONE*/
 
+#about_sec{
+    background-color: var(--bg-hero-about);
+    /*padding: 8% 0;*/
+}
 /* END ABOUT ZONE*/
 
+/* CONTACT ZONE*/
 
-/* DEBUG ZONE */
+#contact_sec{
+}
+
+/* END CONTACT ZONE*/
+
+/***********************************
+            END MAIN ZONE
+***********************************/
+
+/***********************************
+            FOOTER ZONE
+***********************************/
+
+#top_footer{
+    background-color: var(--bg-footer);
+    padding: 8% 0;
+}
+
+#bottom_footer{
+    background-color: var(--bg-mtmb);
+    padding: 8% 0;
+}
+
+
+/***********************************
+            END FOOTER ZONE
+***********************************/
+
